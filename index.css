@@ -1,0 +1,329 @@
+.navbar-brand {
+    padding-left: 20px;
+}
+
+button.navbar-toggler {
+    margin-right: 20px;
+}
+
+.burgerlist li {
+    padding-left: 10px;
+    font-family: Calibri light;
+    font-weight: lighter;
+}
+
+.burgerlist {
+    margin-right: 20px;
+}
+
+/* HOME PAGE */
+.title h1 {
+    color: black;
+    font-family:'Dancing Script', cursive;
+    font-size: 2.5em;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.title p {
+    color: black;
+    font-family: calibri light;
+    font-size: 0.8em;
+    font-weight: lighter;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.title img {
+    align-content: center;
+    border-radius: 50%;
+    display: block;
+    height: 30%;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 20%; 
+}
+
+hr {
+    border-color: black;
+    border-top: 3px;
+    width: 6%;
+}
+
+
+
+
+/* ABOUT ME */
+.col-10 p {
+    color: black;
+    font-family: calibri light;
+    text-align: justify;
+    letter-spacing: 0.5px;
+}
+
+
+
+
+/* MY SKILLS */
+.col-4 img {
+    width: 100px;
+    height: 100px;
+}
+
+.col-4 h3 {
+    font-family: Calibri light;
+}
+
+
+.skills-list p {
+    list-style: none;
+    font-family: Calibri light;
+    line-height: 10px;
+    display: block;
+    text-align: center;
+}
+
+
+/* MY SKILLS
+.resume-row-2 {
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+#myskills h1 {
+    color: black;
+    font-family: Calibri light;
+    font-size: 1.8em;
+    font-weight: lighter;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#myskills hr {
+    border-color: black;
+    border-top: 3px;
+    margin: 0 auto 0 auto;
+    margin-bottom: 5%; 
+    width: 5%;
+}
+ 
+.myskills-row {
+    border-spacing: 0px
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    display: flex;
+}
+
+.column-skills {
+    flex: 33.3%;
+    padding: 5px;
+}
+
+/* 1st row 
+.column-skills img {
+    border-radius: 50%;
+    border: 0.5px solid rgb(222, 222, 222);
+}
+*/
+
+/* 2nd row 
+.column-skills h3 {
+    font-family: Calibri light;
+}
+
+/* 3rd row 
+.myskills-row ul {
+   display: block;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.myskills-row li {
+    vertical-align: top;
+    line-height: 20px;
+    list-style: none;
+    font-size: 0.9em;
+    font-family: Calibri light;
+}
+
+.column-skills button {
+    font-family: Calibri light;
+    color: white;
+    font-size: 15px;
+    background: rgb(21, 51, 51);
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    margin-top: 10px;
+}  
+
+.btn-hover:hover {
+    background: #69b8b3;
+    text-decoration: none;
+    min-height: 45px; 
+    width: 120px; 
+    border-radius: 0px; 
+    border: 0px; 
+    height: 40px; 
+    font-size: 15px; 
+    font-weight: 100; 
+    letter-spacing: 0px;
+}
+
+
+/* EDUCATION & EXPERIENCE 
+.resume-row-3 {
+    width: 100%;
+}
+
+.resume-row-3 h1 {
+    color: black;
+    font-family: Calibri light;
+    font-size: 1.8em;
+    font-weight: lighter;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.resume-row-3 hr {
+    border-color: black;
+    border-top: 3px;
+    margin: 0 auto 0 auto;
+    margin-bottom: 5%; 
+    width: 5%;
+}
+
+/* Description 
+.experience-box-left{
+    width: 50%;
+    margin: 10px auto 10px auto;
+    text-align: left;
+    height: 120px;
+}
+
+.experience-box-right{
+    width: 50%;
+    margin: 10px auto 10px auto;
+    text-align: left;
+    height: 120px;
+}
+
+.experience-box-left h2 {
+    color: black;
+    font-family: Calibri light;
+    font-size: 1.05em;
+    font-weight: solid;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.experience-box-right h2 {
+    color: black;
+    font-family: Calibri light;
+    font-size: 1.05em;
+    font-weight: solid;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.experience-box-left p {
+    color: black;
+    font-size: 0.9em;    
+    font-family: Calibri light;
+    font-weight: lighter;
+    list-style: none;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.experience-box-right p {
+    color: black;
+    font-size: 0.9em;    
+    font-family: Calibri light;
+    font-weight: lighter;
+    list-style: none;
+    display: block;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.EHL-img {
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+    height: 60px;
+    width: 60px;
+}
+
+.Kju-img {
+    border-radius: 50%;
+    float: right;
+    height: 100%;
+    margin-left: 30px;
+    width: 30%;
+    height: 60px;
+    width: 60px;
+}
+
+.Surfshop-img {
+    border-radius: 50%;
+    float: left;
+    height: 100%;
+    margin-right: 30px;
+    width: 30%;
+    height: 60px;
+    width: 60px;
+}
+
+.Negos-img {
+    border-radius: 50%;
+    float: right;
+    height: 100%;
+    margin-left: 30px;
+    width: 30%;
+    height: 60px;
+    width: 60px;
+}
+
+.Nestlé-img {
+    border-radius: 50%;
+    float: left;
+    height: 100%;
+    margin-right: 30px;
+    width: 30%;
+    height: 60px;
+    width: 60px;
+}
+
+.Hamilton-img {
+    border-radius: 50%;
+    float: right;
+    height: 100%;
+    margin-left: 30px;
+    width: 30%;
+    height: 60px;
+    width: 60px;
+}
+
+.Orpi-img {
+    border-radius: 50%;
+    float: left;
+    height: 100%;
+    margin-right: 30px;
+    width: 30%;
+    height: 60px;
+    width: 60px;
+}
+
+.Diploma-img {
+    border-radius: 50%;
+    float: right;
+    height: 100%;
+    margin-left: 30px;
+    width: 30%;
+    height: 60px;
+    width: 60px;
+}
